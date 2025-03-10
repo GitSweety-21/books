@@ -18,11 +18,11 @@ let games = [
     platform: "PC",
   },
 ];
-async function getAllgames() {
+function getAllgames() {
   return games;
 }
 
-async function getGamesById(id) {
+function getGamesById(id) {
   return games.find((game) => game.gameId === id);
 }
 
